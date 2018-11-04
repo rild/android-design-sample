@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createData() {
-        mAcitivityList.add(new Item("JankenActivity", JankenActivity.class));
+        mAcitivityList.add(new Item("Janken", JankenActivity.class));
+        mAcitivityList.add(new Item("TimeTable", TimeTableActivity.class));
     }
 }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.JankenActivity"></activity>
+        <activity android:name=".activities.JankenActivity" />
+        <activity android:name=".activities.TimeTableActivity"></activity>
     </application>
 
 </manifest>
